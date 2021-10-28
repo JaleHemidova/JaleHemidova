@@ -95,7 +95,10 @@ body.scale-cv{
 .scale-cv .resume__left,
 .scale-cv .resume__right{
     padding: 0 1rem;
-    
+    margin-top: -1rem;
+}
+.scale-cv .resume__right{
+    margin-top: -1.2rem;
 }
 .scale-cv .home__container{
     gap: 1.5rem;
@@ -142,6 +145,9 @@ body{
     font-size: var(--normal-font-size);
     background-color:var(--body-color);
     color: var(--text-color);
+}
+header{
+    margin-top: -1rem;
 }
 .scale-cv .skills__name{
     margin-bottom: var(--mb-1);
